@@ -66,6 +66,10 @@
 			margin-right: 8px;
 		}
 
+		.owl-pagination {
+			background: #2e2e2e;
+		}
+
 		@media only screen and (max-width: 420px) {
 			.certifications {
 				margin-left: 0;
@@ -143,7 +147,8 @@
 				<h1>Let me introduce myself.</h1>
 				<div class="intro-info">
 					<img src="images/profile-pic.jpg" alt="Profile Picture">
-					<p class="lead">I'm a programmer specializing in Web Development, and prefer to build maintainable, user-friendly, and cross-platform
+					<p class="lead">I'm a programmer specializing in Web Development, and prefer to build maintainable, user-friendly,
+						and cross-platform
 						website using HTML, CSS and JavaScript.
 					</p>
 				</div>
@@ -166,11 +171,11 @@
 					</li>
 					<li>
 						<strong>Ideal Job:</strong>
-						<span>Full Stack Developer</span>
+						<span>Front-End Developer</span>
 					</li>
 					<li>
 						<strong>Hobbies &#38; Interests:</strong>
-						<span>Coding and Volleyball</span>
+						<span>Coding, Cooking and Volleyball</span>
 					</li>
 					<li>
 						<strong>Email:</strong>
@@ -182,7 +187,8 @@
 			<!-- Skills -->
 			<div class="col-six tab-full">
 				<h3>Skills</h3>
-				<p>Especially, I'm interested in JavaScript and UI Design. Also, I have experience of working with Back-End Language.</p>
+				<p>Especially, I'm interested in JavaScript and UI Design. Also, I have experience of working with Back-End
+					Language.</p>
 				<div class="skills-block">
 					<div class="skills-container">
 						<div class="skills-content">
@@ -304,6 +310,30 @@
 			</div>
 			<div class="col-twelve">
 				<div class="timeline-wrap">
+					<!-- 樂齡好志在 -->
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-users"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Independent Study</h3>
+							<h4 style="margin-bottom: 0;">Full Stack</h4>
+							<p>June. 2018 - Oct. 2018</p>
+						</div>
+						<div class="timeline-content">
+							<h4>長者關懷系統 - 樂齡好志在 (Team Leader)</h4>
+							<p>
+								實際探訪台北市社會局老人福利科與社區關懷據點，瞭解現行關懷運作機制與需求分析。
+								<br /> 內容：本系統藉由關懷長者的議題為核心，帶出志工的人力不足及管理問題，改善志工探訪時的便利性。
+														透過活動參與及回饋機制，鼓勵長者踏出家門、走入人群，達到快樂學習、主動分享之樂齡生活。
+								<br /> 前端：React Native (JSX, ES6)
+								<br /> 後端：PHP (Composer, PDO, JWT)
+								<br /> 資料庫：MySQL + Firebase
+								<br /> 伺服器：SHU VM
+								<br /> Library：expo + react-navigation + axios + firebase
+							</p>
+						</div>
+					</div>
 					<!-- Hair Salon Information System -->
 					<div class="timeline-block">
 						<div class="timeline-ico">
@@ -317,10 +347,12 @@
 							<h4>Hair Salon Information System</h4>
 							<p>
 								美髮店家系統網站開發（RWD設計、前後端分離）
-								<br/> 內容：會員系統、開單系統、庫存管理系統、權限設定
-								<br/> 前端：HTML5 + CSS + JavaScript + jQuery + AJAX + Semantic UI + Chart.js
-								<br/> 後端：PHP + MySQL
-								<br/> 伺服器：Google Cloud Platform
+								<br /> 內容：會員系統、開單系統、庫存管理系統、權限設定
+								<br /> 前端：HTML5 + CSS + JavaScript (AJAX) + jQuery
+								<br /> 後端：PHP (PDO, JWT)
+								<br /> 資料庫：MySQL
+								<br /> 伺服器：Google Cloud Platform
+								<br /> Library：Semantic UI + DatePicker + Chart.js
 							</p>
 						</div>
 					</div>
@@ -338,10 +370,9 @@
 							<h4>RushBit Multi-Payment App</h4>
 							<p>
 								「新北市餐飲業多元支付推廣輔導計畫」前端開發
-								<br/> 內容：前端介面與功能設計、串接後端API、將網頁包進App
-								<br/> 前端：HTML5 + CSS + JavaScript + jQuery + AJAX + Semantic UI + DatePicker
-								<br/> iOS：UIWebView
-								<br/> Android：WebView
+								<br /> 內容：前端介面與功能設計、串接後端API
+								<br /> 前端：HTML5 + CSS + JavaScript (AJAX) + jQuery
+								<br /> Library：Semantic UI + DatePicker
 							</p>
 						</div>
 					</div>
@@ -358,8 +389,8 @@
 							<h4>TVmaze API App</h4>
 							<p>
 								Android 電視節目App開發
-								<br/> 內容：客製化ListAdapter、串接TVmaze API
-								<br/> Library：Android Fast Network + Butterknife + GsonFormatter + Glide
+								<br /> 內容：客製化ListAdapter、串接TVmaze API
+								<br /> Library：Android Fast Network + Butterknife + GsonFormatter + Glide
 							</p>
 						</div>
 					</div>
@@ -376,9 +407,10 @@
 							<h4>Easy Print Website (Team Leader)</h4>
 							<p>
 								線上沖印系統開發
-								<br/> 內容：會員系統、照片上傳、尺寸與張數選擇
-								<br/> 前端：HTML5 + CSS + JavaScript
-								<br/> 後端：PHP + MySQL
+								<br /> 內容：會員系統、照片上傳、尺寸與張數選擇
+								<br /> 前端：HTML5 + CSS + JavaScript (File API)
+								<br /> 後端：PHP (SESSION, mysqli, POST)
+								<br /> 資料庫：MySQL
 							</p>
 						</div>
 					</div>
@@ -395,9 +427,8 @@
 							<h4>Doughnuts Crisis (Team Leader)</h4>
 							<p>
 								HTML5 甜甜圈危機小遊戲
-								<br/> 內容：Canvas、addEventListener、LocalStorage、Media
-								<br/> 前端：HTML5 + CSS + JavaScript + Canvas
-								<br/>
+								<br /> 內容：一款閃避天降甜甜圈的小遊戲，具有單機排行榜功能。
+								<br /> 前端：HTML5 + CSS + JavaScript (Canvas API, LocalStorage, Media)
 							</p>
 						</div>
 					</div>
@@ -418,6 +449,20 @@
 			<div class="col-twelve">
 				<!-- portfolio-wrapper -->
 				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+					<!-- 樂齡好志在 -->
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/Concern/login.png" alt="樂齡好志在">
+							<a href="#modal-06" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">樂齡好志在</h3>
+										<span class="folio-types">長者關懷系統</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
 					<!-- RushPay -->
 					<div class="bgrid folio-item">
 						<div class="item-wrap">
@@ -525,6 +570,29 @@
 							</div>
 						</div>
 					</div>
+
+					<!-- RushPay modal-->
+					<div id="modal-01" class="popup-modal slider mfp-hide">
+						<div class="media">
+							<div class="owl-carousel">
+								<div>
+									<img src="images/portfolio/RushPay_Pic/login.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/RushPay_Pic/today.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/RushPay_Pic/refunds.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/RushPay_Pic/settings.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/RushPay_Pic/trade.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
 					<!-- Mima modal -->
 					<div id="modal-02" class="popup-modal slider mfp-hide">
 						<div class="media">
@@ -607,6 +675,34 @@
 							</div>
 						</div>
 					</div>
+					<!-- 樂齡好志在 modal -->
+					<div id="modal-06" class="popup-modal slider mfp-hide">
+						<div class="media">
+							<div class="owl-carousel">
+								<div>
+									<img src="images/portfolio/Concern/course.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/Concern/map.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/Concern/home.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/Concern/activity.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/Concern/info.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/Concern/edit.png" alt="" />
+								</div>
+								<div>
+									<img src="images/portfolio/Concern/volunteer.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -616,6 +712,18 @@
 		<div class="row">
 			<div class="col-twelve section-ads">
 				<h2 class="h01">Certifications</h2>
+				<div class="certifications">
+					<div class="service">
+						<span class="icon">
+							<i class="icon-badge"></i>
+						</span>
+						<span style="font-family: 'poppins-regular', sans-serif;font-size: 1.6rem;color: #888888;">Nov. 2018</span>
+						<div class="service-content">
+							<h3>2018全國性華醫創客松大賽「健康照護」與「智慧生活」創意實務專題競賽</h3>
+							<img src="images/certification/Concern.jpg">
+						</div>
+					</div>
+				</div>
 				<div class="certifications">
 					<div class="service">
 						<span class="icon">
