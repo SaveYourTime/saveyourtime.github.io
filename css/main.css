@@ -1655,11 +1655,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * section ads - (_layout.scss)
  * ------------------------------------------------------------------- 
  */
-.section-ad h2 {
+.section-a h2 {
 	position: relative;
 	padding-bottom: 2.1rem;
 }
-.section-ad h2::after {
+.section-a h2::after {
 	content: "";
 	display: block;
 	height: 3px;
@@ -1670,10 +1670,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	bottom: 0;
 	margin-left: -40px;
 }
-.section-ad h2 a, .section-ad h2 a:visited {
+.section-a h2 a, .section-a h2 a:visited {
 	color: #313131;
 }
-.section-ad span {
+.section-a span {
 	color: #3F0D39;
 }
 
